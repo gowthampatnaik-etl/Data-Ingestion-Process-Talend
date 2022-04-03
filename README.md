@@ -15,7 +15,15 @@ DDL and DML for metadata is present in DML/DDL folders of GIT.
 ![image](https://user-images.githubusercontent.com/102896115/161420001-0e580ea1-949c-4387-a138-d8374224f5d0.png)
 
 
-Step 2 : Configure Global context file - 
+Step 2 : Configure Global context file in Talend using implicit context load.
+![image](https://user-images.githubusercontent.com/102896115/161420554-8988b9c9-a2e7-4f75-b83e-2d60047c5809.png)
 
-Step 2 : Source file is placed in source file folder of GIT. Copy them to local directory.
+
+Step 3 : Source file is placed in source file folder of GIT. Copy them to local directory.
+
+Step 4 : Talend job - Ingestion process
+
+![image](https://user-images.githubusercontent.com/102896115/161420613-053ea2e0-01e9-4298-98e8-6d1dfdd8902e.png)
+
+
 
