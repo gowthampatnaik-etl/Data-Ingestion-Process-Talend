@@ -1,0 +1,7 @@
+name,department,salary
+harsha,hr,200
+ramesh,hr,300
+gowtham,dev,200
+govardhan,test,300
+tejus,dev,200
+prakash,dev,300
