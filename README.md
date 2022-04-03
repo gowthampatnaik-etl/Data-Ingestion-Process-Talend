@@ -1,5 +1,5 @@
 # Data-Ingestion-Process-Talend
-Data ingestion process from files to sql server using parameterized bulk exec commands using Talend Open studio
+Data ingestion process of files from local directory to sql server through parameterized bulk exec commands using Talend Open studio
 
 **Prerequisites :**
 1. Talend Open studio for Bigdata - Talend is an open-source ETL tool based on Java
@@ -45,7 +45,7 @@ Step 4.2.2 : Create schema for DB input - metadata tables extract
 Step 4.3 : File List to get the complete file name from source file location and assign it to a global variable. 
 ![image](https://user-images.githubusercontent.com/102896115/161420862-7adbc6b4-6fc0-44c5-8e33-276dba1a9e73.png)
 
-Step 4.4 : This tjava component will create parameterized queries and assign the to variables.
+Step 4.4 : This tjava component will create parameterized queries and assign them to variables.
 **a. DROP_TABLE_SQL - DROP the target table if already exists in databse.
 b. CREATE_TABLE_SQL - Creates the table.
 c. COPY_SQL - paramterized Bulk Exec commands to copy files to SQl server tables.
@@ -54,7 +54,7 @@ e. UPDATE_SQL - Update the housekeeping columns.**
 
 ![image](https://user-images.githubusercontent.com/102896115/161420877-7eb68e87-ee9e-4344-aaf5-3fa770486e2e.png)
 
-Step 4.5 : Fixed flow input will fetch each variable that was deifned in tjava component and execute step by step sequentially.
+Step 4.5 : Fixed flow input will fetch each variable that was defined in tjava component and execute them step by step sequentially.
 ![image](https://user-images.githubusercontent.com/102896115/161420894-e412e2d1-fd59-4dd2-a5f7-d3474553dcff.png)
 
 Step 4.5.1 : Fixed flow input schema
@@ -68,7 +68,6 @@ Step 4.7 : Run the parameterized sql queries one by one.
 
 Step 4.8 : Logging through tjavarow to print sql query - completed
 ![image](https://user-images.githubusercontent.com/102896115/161420932-4ed2557f-1bf4-4eea-be01-c60276240499.png)
-
 
 **Conclusion :**
 We can create similar kind of ingestion frameworks using metadata tables based on sources and targets as per requirement. 
