@@ -17,7 +17,12 @@ DDL and DML for metadata is present in DML/DDL folders of GIT.
 
 
 Step 2 : Configure Global context file in Talend using implicit context load.
+
+Step 2.1 : Create a context file and place in the directory (F:\Talend_Workspace\context\context_global.properties).
 ![image](https://user-images.githubusercontent.com/102896115/161420554-8988b9c9-a2e7-4f75-b83e-2d60047c5809.png)
+
+Step 2.2 : Configure the context file in Talend opend studio as shown below:
+![image](https://user-images.githubusercontent.com/102896115/161421542-eb8aced8-3db3-4777-9493-5e2c0e59db75.png)
 
 
 Step 3 : Source file is placed in source file folder of GIT. Copy them to local directory (F:\Talend_Workspace\Input).
@@ -26,7 +31,7 @@ Step 4 : Talend job - Ingestion process - This job will copy different format of
 
 ![image](https://user-images.githubusercontent.com/102896115/161420613-053ea2e0-01e9-4298-98e8-6d1dfdd8902e.png)
 
-Step 4.1 : Creating DB connection.
+Step 4.1 : Creating DB connection using context variables defined in context properties file.
 
 ![image](https://user-images.githubusercontent.com/102896115/161420803-3bf00a30-5565-43b0-a718-8dff306f6def.png)
 
