@@ -39,7 +39,7 @@ Step 4.1 : Creating DB connection using context variables defined in context pro
 Step 4.2.1 : Extact entries from metadata table.
 ![image](https://user-images.githubusercontent.com/102896115/161422042-60214757-eb28-48fb-8de3-97b5e3810363.png)
 
-Step 4.11.1 : Create schema for DB input - metadata tables extract
+Step 4.2.2 : Create schema for DB input - metadata tables extract
 ![image](https://user-images.githubusercontent.com/102896115/161420965-5f0b4d5f-79c5-45e2-862f-1ea7e167adec.png)
 
 Step 4.3 : File List to get the complete file name from source file location and assign it to a global variable. 
