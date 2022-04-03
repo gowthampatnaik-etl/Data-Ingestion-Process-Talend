@@ -28,15 +28,17 @@ Step 4 : Talend job - Ingestion process - This job will copy different format of
 
 Step 4.1 : Creating DB connection.
 ![image](https://user-images.githubusercontent.com/102896115/161420803-3bf00a30-5565-43b0-a718-8dff306f6def.png)
+
+Step 4.1.1 : Create schema for DB input - metadata tables extracct
 ![image](https://user-images.githubusercontent.com/102896115/161420965-5f0b4d5f-79c5-45e2-862f-1ea7e167adec.png)
 
-Step 4.2 : Creating DB connection.
+Step 4.2 : File List to get the complete file name from source file location and assign it to a global variable.
 ![image](https://user-images.githubusercontent.com/102896115/161420833-c87cb3d9-ddcd-454b-8e97-42c714f97160.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.3 : Code to Drop tables and Create tables
 ![image](https://user-images.githubusercontent.com/102896115/161420862-7adbc6b4-6fc0-44c5-8e33-276dba1a9e73.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.3 : Execute parameterized queries one by one
 ![image](https://user-images.githubusercontent.com/102896115/161420877-7eb68e87-ee9e-4344-aaf5-3fa770486e2e.png)
 
 Step 4.3 : Creating DB connection.
@@ -57,6 +59,6 @@ Step 4.3 : Creating DB connection.
 
 
 **Conclusion :**
-We can create similar kind of ingestion frameworks using metadata tables in a similar way based on different sources and targets as per requirement. 
+We can create similar kind of ingestion frameworks using metadata tables based on sources and targets as per requirement. 
 
 
