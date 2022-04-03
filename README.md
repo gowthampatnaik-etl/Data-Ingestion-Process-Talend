@@ -9,6 +9,7 @@ Data ingestion process from files to sql server using parameterized bulk exec co
 In this demonstration, We are going to understand the creation of a Ingestion framework using Talend that will load data from files of local system to MS SQL server using metadata table. This single job will load different format of files into different tables in a Database. 
 
 **Demonstration :**
+
 Step 1 : Configure Metadata Table - This process requires a metadata table (meta.file_ingestion_metadata) which contains all the information related to source files, location, pattern, formats, delimiters, target table,target schema, columns list etc..
 
 DDL and DML for metadata is present in DML/DDL folders of GIT.
