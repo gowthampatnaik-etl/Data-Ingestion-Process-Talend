@@ -46,7 +46,7 @@ Step 4.5 : Fixed flow input
 ![image](https://user-images.githubusercontent.com/102896115/161420894-e412e2d1-fd59-4dd2-a5f7-d3474553dcff.png)
 
 Step 4.5.1 : Fixed flow input schema
-![image](https://user-images.githubusercontent.com/102896115/161420948-7faa07ae-40f7-4a28-8ac9-d7bbc814d864.png)
+![image](https://user-images.githubusercontent.com/102896115/161421441-714b4456-a992-43f1-b132-250c9561b135.png)
 
 Step 4.6 : Logging through tjavarow to print sql query - start
 ![image](https://user-images.githubusercontent.com/102896115/161420907-645dfdd3-6dae-48fb-a215-123fd94af5ab.png)
