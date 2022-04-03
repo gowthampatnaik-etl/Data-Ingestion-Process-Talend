@@ -35,19 +35,25 @@ Step 4.1 : Creating DB connection using context variables defined in context pro
 
 ![image](https://user-images.githubusercontent.com/102896115/161420803-3bf00a30-5565-43b0-a718-8dff306f6def.png)
 
-Step 4.1.1 : Create schema for DB input - metadata tables extracct
-![image](https://user-images.githubusercontent.com/102896115/161420965-5f0b4d5f-79c5-45e2-862f-1ea7e167adec.png)
-
-Step 4.2 : File List to get the complete file name from source file location and assign it to a global variable.
+Step 4.2.1 : Extact entries from metadata table.
 ![image](https://user-images.githubusercontent.com/102896115/161420833-c87cb3d9-ddcd-454b-8e97-42c714f97160.png)
 
-Step 4.3 : Code to Drop tables and Create tables
+Step 4.11.1 : Create schema for DB input - metadata tables extract
+![image](https://user-images.githubusercontent.com/102896115/161420965-5f0b4d5f-79c5-45e2-862f-1ea7e167adec.png)
+
+Step 4.3 : File List to get the complete file name from source file location and assign it to a global variable. 
 ![image](https://user-images.githubusercontent.com/102896115/161420862-7adbc6b4-6fc0-44c5-8e33-276dba1a9e73.png)
 
-Step 4.4 : Execute parameterized queries one by one
+Step 4.4 : This tjava component will create parameterized queries and assign the to variables.
+a. DROP_TABLE_SQL - DROP the target table if already exists in databse.
+b. CREATE_TABLE_SQL - Creates the table.
+c. COPY_SQL - paramterized Bulk Exec commands to copy files to SQl server tables.
+d. ALTER_SQL - Alter the table and add housekeeping columns.
+e. UPDATE_SQL - Update the housekeeping columns.
+
 ![image](https://user-images.githubusercontent.com/102896115/161420877-7eb68e87-ee9e-4344-aaf5-3fa770486e2e.png)
 
-Step 4.5 : Fixed flow input
+Step 4.5 : Fixed flow input will fwtch each variable that was deifned in tjava component and execute step by step sequentially.
 ![image](https://user-images.githubusercontent.com/102896115/161420894-e412e2d1-fd59-4dd2-a5f7-d3474553dcff.png)
 
 Step 4.5.1 : Fixed flow input schema
@@ -56,10 +62,10 @@ Step 4.5.1 : Fixed flow input schema
 Step 4.6 : Logging through tjavarow to print sql query - start
 ![image](https://user-images.githubusercontent.com/102896115/161420907-645dfdd3-6dae-48fb-a215-123fd94af5ab.png)
 
-Step 4.7 : Run the parameterized sql queries to copy files to DB tables.
+Step 4.7 : Run the parameterized sql queries one by one.
 ![image](https://user-images.githubusercontent.com/102896115/161420920-fbaa3f63-ee46-4240-8057-d900345e2f8d.png)
 
-Step 4.8 : Logging through tjavarow to print sql query - stop
+Step 4.8 : Logging through tjavarow to print sql query - completed
 ![image](https://user-images.githubusercontent.com/102896115/161420932-4ed2557f-1bf4-4eea-be01-c60276240499.png)
 
 
