@@ -38,24 +38,23 @@ Step 4.2 : File List to get the complete file name from source file location and
 Step 4.3 : Code to Drop tables and Create tables
 ![image](https://user-images.githubusercontent.com/102896115/161420862-7adbc6b4-6fc0-44c5-8e33-276dba1a9e73.png)
 
-Step 4.3 : Execute parameterized queries one by one
+Step 4.4 : Execute parameterized queries one by one
 ![image](https://user-images.githubusercontent.com/102896115/161420877-7eb68e87-ee9e-4344-aaf5-3fa770486e2e.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.5 : Fixed flow input
 ![image](https://user-images.githubusercontent.com/102896115/161420894-e412e2d1-fd59-4dd2-a5f7-d3474553dcff.png)
+
+Step 4.5.1 : Fixed flow input schema
 ![image](https://user-images.githubusercontent.com/102896115/161420948-7faa07ae-40f7-4a28-8ac9-d7bbc814d864.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.6 : Logging through tjavarow to print sql query - start
 ![image](https://user-images.githubusercontent.com/102896115/161420907-645dfdd3-6dae-48fb-a215-123fd94af5ab.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.7 : Run the parameterized sql queries to copy files to DB tables.
 ![image](https://user-images.githubusercontent.com/102896115/161420920-fbaa3f63-ee46-4240-8057-d900345e2f8d.png)
 
-Step 4.3 : Creating DB connection.
+Step 4.8 : Logging through tjavarow to print sql query - stop
 ![image](https://user-images.githubusercontent.com/102896115/161420932-4ed2557f-1bf4-4eea-be01-c60276240499.png)
-
-
-
 
 
 **Conclusion :**
