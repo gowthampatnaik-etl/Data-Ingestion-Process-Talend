@@ -46,15 +46,15 @@ Step 4.3 : File List to get the complete file name from source file location and
 ![image](https://user-images.githubusercontent.com/102896115/161420862-7adbc6b4-6fc0-44c5-8e33-276dba1a9e73.png)
 
 Step 4.4 : This tjava component will create parameterized queries and assign the to variables.
-a. DROP_TABLE_SQL - DROP the target table if already exists in databse.
+**a. DROP_TABLE_SQL - DROP the target table if already exists in databse.
 b. CREATE_TABLE_SQL - Creates the table.
 c. COPY_SQL - paramterized Bulk Exec commands to copy files to SQl server tables.
 d. ALTER_SQL - Alter the table and add housekeeping columns.
-e. UPDATE_SQL - Update the housekeeping columns.
+e. UPDATE_SQL - Update the housekeeping columns.**
 
 ![image](https://user-images.githubusercontent.com/102896115/161420877-7eb68e87-ee9e-4344-aaf5-3fa770486e2e.png)
 
-Step 4.5 : Fixed flow input will fwtch each variable that was deifned in tjava component and execute step by step sequentially.
+Step 4.5 : Fixed flow input will fetch each variable that was deifned in tjava component and execute step by step sequentially.
 ![image](https://user-images.githubusercontent.com/102896115/161420894-e412e2d1-fd59-4dd2-a5f7-d3474553dcff.png)
 
 Step 4.5.1 : Fixed flow input schema
