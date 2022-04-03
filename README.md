@@ -27,6 +27,7 @@ Step 4 : Talend job - Ingestion process - This job will copy different format of
 ![image](https://user-images.githubusercontent.com/102896115/161420613-053ea2e0-01e9-4298-98e8-6d1dfdd8902e.png)
 
 Step 4.1 : Creating DB connection.
+
 ![image](https://user-images.githubusercontent.com/102896115/161420803-3bf00a30-5565-43b0-a718-8dff306f6def.png)
 
 Step 4.1.1 : Create schema for DB input - metadata tables extracct
