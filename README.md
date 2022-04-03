@@ -73,13 +73,13 @@ Step 4.8 : Logging through tjavarow to print sql query - completed
 **Execution :**
 
 Step 1 : Copy them to local directory (F:\Talend_Workspace\Input\employees_20220101.txt)
-![image](https://user-images.githubusercontent.com/102896115/161435583-d2bb72d9-bcb0-4acb-8d26-e7d5c72b66be.png)
+![image](https://user-images.githubusercontent.com/102896115/161435831-ee245295-d9e7-4e90-8eb9-49cdff4dd5d2.png)
 
 Step 2 : Run the Talend job - job_0000_FILE_ingestion
 ![image](https://user-images.githubusercontent.com/102896115/161435628-123ab4c0-1973-472e-9734-057df0edd0ca.png)
 
 Step 3 : Check the results in MS SQL SERVER.
-![image](https://user-images.githubusercontent.com/102896115/161435658-31f0d7dd-6a7f-426c-8fd5-5da03cfa516e.png)
+![image](https://user-images.githubusercontent.com/102896115/161435884-6f945d86-30d7-4a28-92b0-c76e87c6f529.png)
 
 
 **Conclusion :**
