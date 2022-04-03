@@ -2,6 +2,7 @@
 Data ingestion process of files from local directory to sql server through parameterized bulk exec commands using Talend Open studio
 
 **Prerequisites :**
+
 1. Talend Open studio for Bigdata - Talend is an open-source ETL tool based on Java
 2. Java latest version compatible with Talend.
 3. MS SQL SERVER - Create DB with name as "dwh" and schema with name "temp"
@@ -70,6 +71,7 @@ Step 4.8 : Logging through tjavarow to print sql query - completed
 ![image](https://user-images.githubusercontent.com/102896115/161420932-4ed2557f-1bf4-4eea-be01-c60276240499.png)
 
 **Execution :**
+
 Step 1 : Copy them to local directory (F:\Talend_Workspace\Input\employees_20220101.txt)
 ![image](https://user-images.githubusercontent.com/102896115/161435583-d2bb72d9-bcb0-4acb-8d26-e7d5c72b66be.png)
 
