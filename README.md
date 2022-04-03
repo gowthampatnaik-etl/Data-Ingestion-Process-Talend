@@ -69,6 +69,17 @@ Step 4.7 : Run the parameterized sql queries one by one.
 Step 4.8 : Logging through tjavarow to print sql query - completed
 ![image](https://user-images.githubusercontent.com/102896115/161420932-4ed2557f-1bf4-4eea-be01-c60276240499.png)
 
+**Execution :**
+Step 1 : Copy them to local directory (F:\Talend_Workspace\Input\employees_20220101.txt)
+![image](https://user-images.githubusercontent.com/102896115/161435583-d2bb72d9-bcb0-4acb-8d26-e7d5c72b66be.png)
+
+Step 2 : Run the Talend job - job_0000_FILE_ingestion
+![image](https://user-images.githubusercontent.com/102896115/161435628-123ab4c0-1973-472e-9734-057df0edd0ca.png)
+
+Step 3 : Check the results in MS SQL SERVER.
+![image](https://user-images.githubusercontent.com/102896115/161435658-31f0d7dd-6a7f-426c-8fd5-5da03cfa516e.png)
+
+
 **Conclusion :**
 We can create similar kind of ingestion frameworks using metadata tables based on sources and targets as per requirement. 
 
